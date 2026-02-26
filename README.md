@@ -11,8 +11,8 @@ We propose Graph Neural Simulators (GNS) as a principled surrogate modeling para
 ## Results
 We rigorously evaluate GNS on four canonical PDE systems: (1) 2D scalar Burgers’, (2) 2D coupled Burgers’, (3) 2D Allen–Cahn, and (4) 2D nonlinear shallow-water equations, comparing against state-of-the-art NOs including Deep Operator Network (DeepONet) and Fourier Neural Operator (FNO). Results demonstrate that GNS is markedly more data-efficient, achieving less than 1% relative $L_2$ error using only 3% of available trajectories, and exhibits dramatically reduced error accumulation over time (82.5% lower autoregressive error than FNO, 99.9% lower than DeepONet).
 
-<!-- ## Datasets
-Link to the datasets used in this work: [GNS_vs_NOs_datasets] -->
+## Datasets
+Link to the datasets used in this work: [GNS_vs_NOs_datasets](https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/sgoswam4_jh_edu/IgDaEmuDvTQ6RahT2oBinhChAdCmLGsdx9sucZaCFe2cLVg?e=qlg8MA)
 
 ## Installation
 The code for this project is written in JAX. To install the dependencies and get started, clone the repository and install the required packages:
