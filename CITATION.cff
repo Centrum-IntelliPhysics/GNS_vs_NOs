@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "GNS vs Neural Operators"
+message: "If you use this code, please cite our paper and/or this repository."
+type: software
+
+authors:
+  - given-names: "Dibyajyoti"
+    family-names: "Nayak"
+    affiliation: "Johns Hopkins University"
+
+repository-code: "https://github.com/Centrum-IntelliPhysics/GNS_vs_NOs"
+
+keywords:
+  - scientific machine learning
+  - graph neural networks
+  - neural operators
+  - PDEs
+  - operator learning
+
+license: MIT
+
+version: 1.0
+date-released: 2026-03-25
+
+preferred-citation:
+  type: article
+  title: "GNS vs Neural Operators"
+  authors:
+    - given-names: "Dibyajyoti"
+      family-names: "Nayak"
+  year: 2025
+  journal: "arXiv"
+  url: "https://arxiv.org/abs/2509.06154"
